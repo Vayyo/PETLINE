@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 minimum-scale=1"
+    />
+    <meta
+      name="description"
+      content="PETLINE: Adopt Your Best Friend"
+    />
+    <meta name="author" content="Vayo Vayo" />
+    <script src="index.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rancho&family=Itim&family=Aladin&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Petline</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <i class="fa-solid fa-earth-africa location"></i>
+        <h1 class="title">PETLINE</h1>
+        <i class="fa-solid fa-list menu-icon"></i>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#" class="units unavailable">Dog</a></li>
+          <li><a href="#" class="units unavailable">Cat</a></li>
+          <li><a href="#" class="units unavailable">Fish</a></li>
+          <li><a href="#" class="units unavailable">Bird</a></li>
+          <li><a href="#" class="units unavailable">Rabbit</a></li>
+          <li><a href="#" class="units unavailable">Horse</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="bg">
+      <div class="bgs bg1 current">
+        <img src="img/1/dog-bg.webp" class="img-bg" alt="" />
+        <p class="name">DOG<span class="info">Man's Bestfriend</span></p>
+        <img src="img/1/dog.webp" class="img-obj" alt="" />
+      </div>
+      <div class="bgs bg2">
+        <img src="img/1/cat-bg.webp" class="img-bg" alt="" />
+        <p class="name">CAT<span class="info">The Bitchy Queen</span></p>
+        <img src="img/1/cat.webp" class="img-obj" alt="" />
+      </div>
+      <div class="bgs bg3">
+        <img src="img/1/fish-bg.webp" class="img-bg" alt="" />
+        <p class="name">FISH<span class="info">The Wobbly Maniac</span></p>
+        <img src="img/1/fish.webp" class="img-obj" alt="" />
+      </div>
+      <div class="bgs bg4">
+        <img src="img/1/bird-bg.webp" class="img-bg" alt="" />
+        <p class="name">BIRD<span class="info">The Talkative Minion</span></p>
+        <img src="img/1/bird.webp" class="img-obj" alt="" />
+      </div>
+      <div class="bgs bg5">
+        <img src="img/1/rabbit-bg.webp" class="img-bg" alt="" />
+        <p class="name">RABBIT<span class="info">The Nibble Queen</span></p>
+        <img src="img/1/rabbit.webp" class="img-obj" alt="" />
+      </div>
+      <div class="bgs bg6">
+        <img src="img/1/horse-bg.webp" class="img-bg" alt="" />
+        <p class="name">HORSE<span class="info">The Charging Knight</span></p>
+        <img src="img/1/horse.webp" class="img-obj" alt="" />
+      </div>
+      <div class="bottom-area">
+        <button class="adopt">ADOPT ONE</button>
+      </div>
+    </section>
+
+    <section class="find-match">
+      <div class="text-box">
+        <h1 class="title">FIND YOUR <span>BEST MATCH</span></h1>
+        <p class="info">
+          Let's choose a pet for you. Choose between one to three options that
+          best describes your interests and personality.
+        </p>
+        <div class="tabs">
+          <button class="items">Loyal</button>
+          <button class="items">Caring</button>
+          <button class="items">Energetic</button>
+          <button class="items">Social</button>
+          <button class="items">Independent</button>
+          <button class="items selected">Gentle</button>
+          <button class="items">Magical</button>
+          <button class="items">Little</button>
+          <button class="items">Intelligent</button>
+          <button class="items">Lazy</button>
+        </div>
+        <button class="btn find">Find</button>
+      </div>
+      <div class="imgs-box">
+        <img class="default" src="img/2/dog.webp" alt="" />
+        <img class="default" src="img/2/cat.webp" alt="" />
+        <img class="default" src="img/2/rabbit.webp" alt="" />
+        <img class="new-img" src="" alt="" />
+      </div>
+    </section>
+
+    <section class="benefits" id="benefits">
+      <div class="text-box">
+        <h1 class="title">Benefits Of Getting A Pet</h1>
+        <p class="benefit">Endless entertainment</p>
+        <p class="benefit">Comfort and support</p>
+        <p class="benefit">Companionship for all</p>
+        <p class="benefit">Social Interaction</p>
+        <p class="benefit">Content creation</p>
+      </div>
+      <div class="content-box">
+        <img src="img/4/kitten.webp" alt="" />
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="text-box">
+        <h1 class="title">Breeds We Have</h1>
+        <p class="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          dolorem, ipsa quod asperiores quae est.
+        </p>
+      </div>
+      <div class="breeds-box">
+        <div class="each unavailable">
+          <p class="name">Tabby Cat</p>
+          <img src="img/3/cat-c.webp" alt="" srcset="" />
+        </div>
+        <div class="each unavailable">
+          <p class="name">Koi Fish</p>
+          <img src="img/3/fish-a.webp" alt="" srcset="" />
+        </div>
+        <div class="each unavailable">
+          <p class="name">Siberian Husky</p>
+          <img src="img/3/dog-a.webp" alt="" srcset="" />
+        </div>
+        <div class="each unavailable">
+          <p class="name">Netherland Dwarf</p>
+          <img src="img/3/rabbit-c.webp" alt="" srcset="" />
+        </div>
+        <div class="each unavailable">
+          <p class="name">Black Forest</p>
+          <img src="img/3/horse-a.webp" alt="" srcset="" />
+        </div>
+        <div class="each unavailable">
+          <p class="name">British Shorthair</p>
+          <img src="img/3/cat-b.webp" alt="" srcset="" />
+        </div>
+        <div class="each unavailable">
+          <p class="name">Macaw</p>
+          <img src="img/3/bird-a.webp" alt="" srcset="" />
+        </div>
+        <div class="each unavailable">
+          <p class="name">Rottweiler</p>
+          <img src="img/3/rott.webp" alt="" srcset="" />
+        </div>
+        <div class="each unavailable">
+          <p class="name">Holsteiner</p>
+          <img src="img/3/horse-e.webp" alt="" srcset="" />
+        </div>
+        <div class="each unavailable">
+          <p class="name">Golden Retriever</p>
+          <img src="img/3/dog-e.webp" alt="" srcset="" />
+        </div>
+        <div class="each unavailable">
+          <p class="name">Exotic Shorthair</p>
+          <img src="img/3/cat-a.webp" alt="" srcset="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="text-box">
+        <h1 class="title">services We Offer</h1>
+        <p class="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio,
+          mollitia maiores cupiditate eligendi a?
+        </p>
+      </div>
+      <div class="container">
+        <div class="img-box">
+          <img src="img/4/bird-2.webp" alt="" />
+        </div>
+        <div class="service">
+          <h4 class="name">Adoption</h4>
+          <p class="info">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="service">
+          <h4 class="name">Training</h4>
+          <p class="info">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="service">
+          <h4 class="name">Grooming</h4>
+          <p class="info">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="service">
+          <h4 class="name">Vaccination</h4>
+          <p class="info">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="service">
+          <h4 class="name">Pet Supplies</h4>
+          <p class="info">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="service">
+          <h4 class="name">Daycare</h4>
+          <p class="info">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="service">
+          <h4 class="name">Pet Modelling</h4>
+          <p class="info">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="service">
+          <h4 class="name">Vet Services</h4>
+          <p class="info">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="service">
+          <h4 class="name">Housing</h4>
+          <p class="info">Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="extras">
+      <h3 class="title">DID YOU KNOW?</h3>
+      <p class="content" id="fun-fact">
+        Dogs have been man's best friend for thousands of years and are the most
+        popular pet worldwide. Did you know that dogs were domesticated around
+        14,000 years ago and were originally bred for tasks such as hunting and
+        guarding? Cats are known for their independent nature and grooming
+        habits and were likely domesticated around 9,000 years ago. Did you know
+        that fish may not be as cuddly as other pets, but they have been a
+        popular choice for centuries, with some species being kept in Ancient
+        Egyptian palaces as decorative pets. Did you know that rabbits have a
+        playful personality and love for digging and burrowing, and have been
+        kept as indoor pets for centuries? Horses are majestic creatures that
+        have been used for transportation, farming, and recreation for thousands
+        of years. Did you know that birds, such as parakeets and canaries, are
+        popular pets due to their singing abilities and have been kept for this
+        purpose for centuries? There are hundreds of other pets, such as
+        hamsters and guinea pigs, that have been popular choices as small, low
+        maintenance companions. Did you know that snakes and lizards have also
+        been kept as pets for centuries, with some species being revered in
+        Ancient Egyptian and Greek cultures? Dogs come in a variety of shapes,
+        sizes, and breeds, with some being bred specifically for certain tasks
+        such as herding or protection. Did you know that cats are known for
+        their ability to land on their feet due to their flexible spine and
+        strong leg muscles, a trait known as the "righting reflex"? Fish are not
+        only popular pets, but also a major food source for many cultures around
+        the world. Did you know that some species, such as Koi fish, are also
+        considered to bring good luck and are often kept in outdoor ponds? Did
+        you know that rabbits are social animals and can form strong bonds with
+        their human companions? They are also known for their ability to
+        reproduce quickly, with a female rabbit being able to have litters of up
+        to 12 babies at a time. Horses are intelligent and sensitive animals and
+        are often used in therapy programs due to their calming presence. Did
+        you know that horses are also used in sports such as racing and show
+        jumping? Birds are known for their singing abilities, and some species,
+        such as parrots, have the ability to mimic human speech. Birds are also
+        often kept as outdoor pets due to their love for flying and exploring.
+        Overall, pets bring joy and companionship to their human owners and come
+        in a variety of shapes, sizes, and abilities. They can make great
+        additions to any household and provide endless entertainment and love.
+      </p>
+    </section>
+
+    <section class="reviews">
+      <div class="text-box">
+        <h1 class="title">They all love our pets</h1>
+        <p class="info">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
+          et! Lorem ipsum dolor sit amet.
+        </p>
+      </div>
+      <div class="content" id="reviews">
+        <div class="review">
+          <p class="text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus culpa, aspernatur mollitia amet qui ex?
+          </p>
+          <p class="name">- Sarah Johnson -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+            consequatur vero quibusdam aperiam, sit repellendus.
+          </p>
+          <p class="name">- Optimus Prime -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, libero.
+          </p>
+          <p class="name">- Elissa Fortune -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            dolor ab ea.
+          </p>
+          <p class="name">- Benji Flakes -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio?
+          </p>
+          <p class="name">- Olivia Olamide -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae
+            totam autem architecto soluta exercitationem?
+          </p>
+          <p class="name">- Bruno Queen -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+            animi magnam.
+          </p>
+          <p class="name">- Emily Stone -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            cupiditate corrupti officia beatae asperiores rem!
+          </p>
+          <p class="name">- James Davis -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            explicabo asperiores suscipit!
+          </p>
+          <p class="name">- Michael Thompson -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+            quidem nihil dolorem corrupti quam nisi.
+          </p>
+          <p class="name">- Jessica williams -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid,
+            dignissimos?
+          </p>
+          <p class="name">- Christopher Bola -</p>
+        </div>
+        <div class="review">
+          <p class="text">Lorem ipsum dolor sit.</p>
+          <p class="name">- Sunday Tola -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing.
+          </p>
+          <p class="name">- Madison White -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            consectetur doloremque doloribus animi.
+          </p>
+          <p class="name">- Kevin Rodriguez -</p>
+        </div>
+        <div class="review">
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            asperiores temporibus natus?
+          </p>
+          <p class="name">- Samantha Davis -</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <h1 class="title">Have Some Questions?</h1>
+      <div class="content box">
+        <div class="form-box">
+          <div class="img-box">
+            <img src="img/4/cat-5.webp" alt="" />
+          </div>
+          <form action="">
+            <div class="f-label">
+              <p class="text">Drop a line!</p>
+              <p class="text">Make an appointment</p>
+            </div>
+
+            <input type="text" class="f-name" placeholder="Name..." required />
+            <input
+              type="email"
+              class="f-email"
+              placeholder="Email..."
+              required
+            />
+            <input
+              type="text"
+              class="f-subject"
+              placeholder="Subject..."
+              required
+            />
+            <textarea rows="8" placeholder="Message..."></textarea>
+            <input type="submit" value="Send Message" class="unavailable" />
+          </form>
+        </div>
+        <div class="contact-box">
+          <h1 class="title">Get In Touch</h1>
+          <div class="container">
+            <div class="details">
+              <p class="text each">
+                Our address:
+                <span>Bax 65, Kolawole Avenue, Maryland, Nigeria</span>
+              </p>
+              <p class="text each">
+                Phone: <span>+234 903 123 2959</span
+                ><span>+234 903 217 2987</span>
+              </p>
+              <p class="text each">Email: <span>Yourmail@petline.com</span></p>
+              <div class="socials each">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+              </div>
+            </div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126833.2887806825!2d3.366838!3d6.579551!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93b65ba86e15%3A0x3ae060fb3436c3ad!2sIkeja%20City%20Mall!5e0!3m2!1sen!2sng!4v1671270398054!5m2!1sen!2sng"
+              width="300"
+              height="300"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="map"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h1 class="title">PETLINE</h1>
+      <p class="opens">Opens daily - 9am to 7pm</p>
+      <ul class="links">
+        <li><a href="#" class="link unavailable">Download App</a></li>
+        <li><a href="#" class="link unavailable">FAQ</a></li>
+        <li><a href="#" class="link unavailable">About Us</a></li>
+        <li><a href="#" class="link unavailable">Credits</a></li>
+        <li><a href="#" class="link unavailable">Privacy Policy</a></li>
+      </ul>
+      <p class="CC">Website by VAYO &copy; <span class="yr">2022</span></p>
+    </footer>
+  </body>
+</html>
